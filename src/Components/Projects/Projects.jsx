@@ -3,7 +3,7 @@ import "./Projects.css";
 import projects_data from "../../assets/projects_data";
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <div className="projects-title">
         <h1>My Projects</h1>
         <img src="" alt="Projects" />
