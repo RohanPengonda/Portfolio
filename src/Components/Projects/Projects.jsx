@@ -1,12 +1,15 @@
 // import React from 'react'
 import "./Projects.css";
 import projects_data from "../../assets/projects_data";
+import arrow from "../../assets/arrow_icon.svg";
+import underline from "../../assets/underline.png";
+
 const Projects = () => {
   return (
     <div id="projects" className="projects">
       <div className="projects-title">
         <h1>My Projects</h1>
-        <img src="" alt="Projects" />
+        <img src={underline} alt="Projects" />
       </div>
       <div className="projects-container">
         {projects_data.map((project, index) => {
@@ -18,7 +21,7 @@ const Projects = () => {
               <p>{project.p_desc}</p>
               <div className="services-readmore">
                 <p>Read More</p>
-                <img src="" alt="arrow" />
+                <img src={arrow} alt="arrow" />
               </div>
             </div>
           );

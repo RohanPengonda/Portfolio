@@ -9,13 +9,16 @@
 .mywork-title {
   position: relative;
 }
+/* .work-title img {
+  width: 400px;
+} */
 .mywork-title h1 {
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
 }
 .mywork-title img {
-  position: absolute;
+  width: 600px;
   bottom: 0;
   right: 0;
   z-index: -1;

@@ -1,5 +1,10 @@
 import React from "react";
 import "./Contact.css";
+import mail_icon from "../../assets/mail_icon.svg";
+import phono_icon from "../../assets/call_icon.svg";
+import loc_icon from "../../assets/location_icon.svg";
+import underline from "../../assets/underline.png";
+
 const Contact = () => {
   const [result, setResult] = React.useState("");
 
@@ -30,25 +35,27 @@ const Contact = () => {
     <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get InTouch</h1>
-        <img src="" alt="" />
+        <img src={underline} alt="" />
       </div>
       <div className="contact-section">
         <div className="contact-left">
           <h1>Let`s Talk</h1>
           <p>
-            dsfjadjvfvjasdvfcajsdfjcadsjvfcjhbadsjfbcjdsbafjbcdsjbvjcbdfsjbvjhdfjvbcjhdsfvjbcdfsjbvhfbds;dshfvkjcdfsfnds;kv
+            I'm currently avaliable to take on new projects, so feel free to
+            send me a message about anything that you want me to work on. You
+            can contact anytime
           </p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src="" alt="mail-icon" />
+              <img src={mail_icon} alt="mail-icon" />
               <p>rpengonda1@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src="" alt="phone-icon" />
+              <img src={phono_icon} alt="phone-icon" />
               <p>7720991451</p>
             </div>
             <div className="contact-detail">
-              <img src="" alt="loc-icon" />
+              <img src={loc_icon} alt="loc-icon" />
               <p>Maharashtra,India</p>
             </div>
           </div>

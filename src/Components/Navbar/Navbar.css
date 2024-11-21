@@ -43,6 +43,9 @@
 .nav-mob-close {
   display: none;
 }
+.anchor-link img {
+  width: 450px;
+}
 
 @media (max-width: 768px) {
   .navbar {

@@ -25,6 +25,10 @@
   background: #32323b;
   padding-right: 80px;
 }
+/* .footer-email-input h1 {
+  font-size: 30px;
+  display: flex;
+} */
 .footer-email-input input {
   outline: none;
   border: none;

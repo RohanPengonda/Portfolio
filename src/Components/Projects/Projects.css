@@ -16,7 +16,8 @@
   font-weight: 600;
 }
 .projects-title img {
-  position: absolute;
+  /* position: absolute; */
+  width: 500px;
   bottom: 0;
   right: 0;
   z-index: -1;
@@ -81,7 +82,7 @@
     font-size: 50px;
   }
   .projects-title img {
-    width: 130px;
+    width: 100px;
     margin-right: -20px;
   }
   .projects-format {

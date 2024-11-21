@@ -1,5 +1,6 @@
 // import React from "react";
 import "./Hero.css";
+import profile from "../../assets/Photo.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 const Hero = () => {
   return (
